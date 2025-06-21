@@ -13,6 +13,8 @@ Information on the design and build of a homelab
 - Immich
 - Pi-Hole
 
+Remember that after you have created a new VM or LXC you need to [enable qemu quest services](https://pve.proxmox.com/wiki/Qemu-guest-agent) so that ProxMox can get notifications from the VM and also shut it down gracefully
+
 #### NAS
 - TrueNAS
 - Pi-Hole (backup)
