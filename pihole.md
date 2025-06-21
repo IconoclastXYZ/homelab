@@ -1,4 +1,4 @@
-# Guide to installing Pi=Hole on docker under proxmox
+# Guide to installing Pi-Hole on docker under proxmox
 
 Key to note - the DNS resolution on the ProxMox host needs to be changed to allow for Pi-Hole to 'take-over' [port 53](https://docs.portainer.io/start/install-ce/server/docker/linux#deployment)
 
