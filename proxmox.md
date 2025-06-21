@@ -16,3 +16,6 @@ All of these steps are well described [here](https://franzramadhan.dev/blog/01-f
 
 Once it is all setup then the final changes need to be made in ProxMox in the Datacenter Notifications section as outlined [here](https://blog.programster.org/configure-proxmox-smtp-for-email-notifications)
 
+## Setup UPS notifications and shutdown control
+- Use a [Synology NAS](https://www.reddit.com/r/synology/comments/gtkjam/use_synology_nas_as_ups_server_to_safely_power/) as the UPS server
+- Setup [ProxMox](https://www.reddit.com/r/Proxmox/comments/kj18v8/how_to_verify_that_nut_driver_is_really_working/) as the client and confirm that it is working
