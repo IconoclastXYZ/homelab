@@ -7,11 +7,13 @@ Information on the design and build of a homelab
 - Bee-link mini me - for running TrueNAS
 ### Software
 #### Virtual machine server
-- [ProxMox](/proxmox.md)
-- [Docker](/docker.md)
-- [Portainer](/portainer.md)
-- [Immich](/immich.md)
-- [Pi-Hole](/pihole.md)
+- [ProxMox](/proxmox.md) - bare metal hypervisor
+- [Docker](/docker.md) - VM host
+- [Portainer](/portainer.md) - Docker control panel
+- [Immich](/immich.md) - self-hosting photo library
+- [Pi-Hole](/pihole.md) - DNS filtering
+- [Tailscale](/tailscale.md) - secure remote access
+- [IT-Tools](/ittools.md) - great collection of commonly used tools
 
 Remember that after you have created a new VM or LXC you need to [enable qemu quest services](https://pve.proxmox.com/wiki/Qemu-guest-agent) so that ProxMox can get notifications from the VM and also shut it down gracefully
 
