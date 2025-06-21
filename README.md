@@ -7,7 +7,7 @@ Information on the design and build of a homelab
 - Bee-link mini me - for running TrueNAS
 ### Software
 #### Virtual machine server
-- ProxMox
+- [ProxMox](/proxmox.md)
 - Docker
 - Portainer
 - Immich
