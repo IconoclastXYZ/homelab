@@ -8,6 +8,9 @@ In no particular order for now...
 - [So, you want to start self-hosting? Part 1 - How to install Proxmox and pick your hardware.](https://www.youtube.com/watch?v=zngSuqCM4d8&t=657s), who also talks about TailScale for remote access and networking
 - [Complete beginners guide to self-hosting | Part 2 Installing Immich, Audiobookshelf + Home Assistant](https://www.youtube.com/watch?v=guHoZ68N3XM), noting that some parts are overly simplified, such as not using two disks for ProxMox and how to link external volumes for Immich
 
+## Scripts to run post installation
+- [here](https://www.xda-developers.com/proxmox-scripts-run-new-installation/)
+
 ## Setup email notifications
 This requires the setup of an SMTP relay since this is a Linux box and wants to send out to the real world. I could have used gmail, but I want to send using my own domain
 
