@@ -8,13 +8,13 @@ Information on the design and build of a homelab
 ### Software
 #### Virtual machine server
 - [ProxMox](/proxmox.md)
-- Docker
-- Portainer
-- Immich
-- Pi-Hole
+- [Docker](/docker.md)
+- [Portainer](/portainer.md)
+- [Immich](/immich.md)
+- [Pi-Hole](/pihole.md)
 
 Remember that after you have created a new VM or LXC you need to [enable qemu quest services](https://pve.proxmox.com/wiki/Qemu-guest-agent) so that ProxMox can get notifications from the VM and also shut it down gracefully
 
 #### NAS
-- TrueNAS
+- [TrueNAS](/truenas.md)
 - Pi-Hole (backup)
