@@ -18,6 +18,9 @@ In no particular order for now...
 ## Scripts to run post installation
 - [here](https://www.xda-developers.com/proxmox-scripts-run-new-installation/)
 
+## Stop it powering off
+- [Notes here](https://forum.proxmox.com/threads/my-proxmox-ve-occasionally-crashes-or-goes-into-sleep-mode.139933/)
+
 ## Setup email notifications
 This requires the setup of an SMTP relay since this is a Linux box and wants to send out to the real world. I could have used gmail, but I want to send using my own domain
 
