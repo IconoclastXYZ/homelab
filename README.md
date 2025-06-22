@@ -13,7 +13,7 @@ Information on the design and build of a homelab
 - [Immich](/immich.md) - self-hosting photo library
 - [Pi-Hole](/pihole.md) - DNS filtering
 - [Tailscale](/tailscale.md) - secure remote access
-- [IT-Tools](https://it-tools.tech)) - great collection of commonly used tools
+- [IT-Tools](https://it-tools.tech) - great collection of commonly used tools
 
 Remember that after you have created a new VM or LXC you need to [enable qemu quest services](https://pve.proxmox.com/wiki/Qemu-guest-agent) so that ProxMox can get notifications from the VM and also shut it down gracefully
 
