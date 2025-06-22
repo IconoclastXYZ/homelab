@@ -38,3 +38,11 @@ There are quite a few different ways to skin this cat:
 - VPN - great for a single user, but not good if you want anything publically exposed
 - Cloudflared tunnel - good guide [here](https://mattdyson.org/blog/2024/02/using-traefik-with-cloudflare-tunnels/) on how to put many of these pieces together! [This one](https://homelamb.github.io/posts/using-cloudflare-tunnel-with-traefik/) also gives some more details
 - tailscale - good for access from pre-defined/connected endpoints - mentioned a few times above
+
+### Service monitoring
+- Can use something like [Checkmate](https://www.youtube.com/watch?v=yCnkkljii_k)
+
+### Building a Smart Home
+- Using [Home Assistant](https://www.youtube.com/watch?v=6z-ilfbzDlY) and HACS
+- Need to work out how to get data off an ESP32 onto it...
+
