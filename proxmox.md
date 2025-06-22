@@ -17,6 +17,7 @@ In no particular order for now...
 
 ## Scripts to run post installation
 - [here](https://www.xda-developers.com/proxmox-scripts-run-new-installation/)
+- [Community scripts archive](https://community-scripts.github.io/ProxmoxVE/scripts)
 
 ## Stop it powering off
 - [Notes here](https://forum.proxmox.com/threads/my-proxmox-ve-occasionally-crashes-or-goes-into-sleep-mode.139933/)
