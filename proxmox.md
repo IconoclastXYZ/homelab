@@ -4,6 +4,7 @@ In no particular order for now...
 
 ## Working out the right architecture
 - How many disks and what sort
+-- One boot disk and one data disk
 - ? Main disk and then online storage for all the machines?
 - How to mount network SMB shares and expose them for containers and VMs
 
