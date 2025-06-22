@@ -41,3 +41,6 @@ Once it is all setup then the final changes need to be made in ProxMox in the Da
 
 ## Suggested LXCs to make life easier
 - [here are 7 to start with](https://www.xda-developers.com/proxmox-lxcs-i-couldnt-live-without/)
+
+## ProxMox Backup server
+- [How to back up the server](https://www.reddit.com/r/Proxmox/comments/18jp6o3/use_proxmoxbackupserver_to_backup_your_homelab/)
