@@ -36,5 +36,5 @@ Remember that after you have created a new VM or LXC you need to [enable qemu qu
 There are quite a few different ways to skin this cat:
 - Open ports 80 & 443 (as in the v1 and v2 guides above) - not ideal, can still check passwords, etc using tinyauth or authentik, etc.
 - VPN - great for a single user, but not good if you want anything publically exposed
-- Cloudflared tunnel - good guide [here](https://mattdyson.org/blog/2024/02/using-traefik-with-cloudflare-tunnels/) on how to put many of these pieces together!
+- Cloudflared tunnel - good guide [here](https://mattdyson.org/blog/2024/02/using-traefik-with-cloudflare-tunnels/) on how to put many of these pieces together! [This one](https://homelamb.github.io/posts/using-cloudflare-tunnel-with-traefik/) also gives some more details
 - tailscale - good for access from pre-defined/connected endpoints - mentioned a few times above
