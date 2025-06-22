@@ -6,6 +6,7 @@ In no particular order for now...
 - How many disks and what sort
 -- One boot disk and one data disk
 - ? Main disk and then online storage for all the machines?
+- Whether to use zfs for each disk or LVMthin for the data disk, allowing overprovisioning?
 - How to mount network SMB shares and expose them for containers and VMs
 
 ## Some video walkthroughs on getting the whole thing working
