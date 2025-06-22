@@ -2,6 +2,11 @@
 
 In no particular order for now...
 
+## Working out the right architecture
+- How many disks and what sort
+- ? Main disk and then online storage for all the machines?
+- How to mount network SMB shares and expose them for containers and VMs
+
 ## Some video walkthroughs on getting the whole thing working
 - [Homelab Setup Guide - Proxmox / TrueNAS / Docker Services](https://www.youtube.com/watch?v=yDkc3D3BFhM)
 - [the ULTIMATE Home Server Setup - Full Walkthrough Guide Pt.1 (Proxmox, ZFS, Samba)](https://www.youtube.com/watch?v=qmSizZUbCOA&t=162s)
@@ -31,4 +36,3 @@ Once it is all setup then the final changes need to be made in ProxMox in the Da
 
 ## Suggested LXCs to make life easier
 - [here are 7 to start with](https://www.xda-developers.com/proxmox-lxcs-i-couldnt-live-without/)
-- 
