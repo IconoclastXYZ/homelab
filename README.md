@@ -44,5 +44,5 @@ There are quite a few different ways to skin this cat:
 
 ### Building a Smart Home
 - Using [Home Assistant](https://www.youtube.com/watch?v=6z-ilfbzDlY) and HACS
-- Need to work out how to get data off an ESP32 onto it...
+- Need to work out how to get data off an ESP32 onto it... with some methods [here](https://randomnerdtutorials.com/esp32-how-to-log-data/)
 
