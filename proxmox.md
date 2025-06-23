@@ -19,6 +19,9 @@ In no particular order for now...
 - [here](https://www.xda-developers.com/proxmox-scripts-run-new-installation/)
 - [Community scripts archive](https://community-scripts.github.io/ProxmoxVE/scripts)
 
+- [Initial cleanup and change repositories](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install)
+- [Install NetData](https://community-scripts.github.io/ProxmoxVE/scripts?id=netdata) - served on http://my.server:19999
+
 ## Stop it powering off
 - [Notes here](https://forum.proxmox.com/threads/my-proxmox-ve-occasionally-crashes-or-goes-into-sleep-mode.139933/)
 
