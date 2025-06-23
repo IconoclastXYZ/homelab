@@ -5,6 +5,8 @@ Information on the design and build of a homelab
 ### Hardware
 - Bee-link Mini EQR 5825 minipc with 32GB RAM and two M.2 drives - for running virtual machines on ProxMox
 - Bee-link mini me - for running TrueNAS
+- [Minisforum MS-01](/minisforum_ms01)
+  
 ### Software
 #### Virtual machine server
 - [ProxMox](/proxmox.md) - bare metal hypervisor
