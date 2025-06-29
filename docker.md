@@ -1,4 +1,4 @@
-# Guide for setting up docker within ProxMox
+## Guide for setting up docker within ProxMox
 
 After far too much research, use a VM not an LXC for Docker, at least for now
 
@@ -16,3 +16,11 @@ Post installation steps for Docker
 Resizing a partition
 - After using the tools in ProxMox
 - https://kayg.org/notes/enlarge-disk-proxmox-vm
+
+## Mouting external drives in Docker machines
+- Mount it to the Docker VM host filesystem - https://askubuntu.com/questions/101029/how-do-i-mount-a-cifs-share
+- Then need to change fstab to make it persistent / reload on restart
+
+- Then mount it as a volume inside the machine - https://forums.docker.com/t/docker-compose-mount-samba-volume/132407
+- More about Docker volumes here - https://docs.docker.com/engine/storage/volumes/
+- Storage mount options - https://docs.docker.com/engine/storage/
