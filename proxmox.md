@@ -48,3 +48,6 @@ Once it is all setup then the final changes need to be made in ProxMox in the Da
 
 ## ProxMox Backup server
 - [How to back up the server](https://www.reddit.com/r/Proxmox/comments/18jp6o3/use_proxmoxbackupserver_to_backup_your_homelab/)
+
+## Tools to make managing ProxMox easier
+- ProxMenuX - https://www.xda-developers.com/i-use-this-tool-to-help-manage-my-proxmox-server/
