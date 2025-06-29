@@ -15,3 +15,6 @@ If anyone is reading this and the previous posts have not fully helped with rega
 - Change into your USB directory (you cannot use 'cd', 'dir' or 'ls' commands, simply type the drive letter designation and press enter (for me it was FS0: ) <-that's a zero at the end and not an O as in oscar.
 - Type this file name and press enter to start the BIOS update: AfuEfiFlash.nsh
 - Hope this helps.
+
+## Adding a graphics card for offloading GPU / AI tasks
+- Could use this one - https://yestonstore.com/products/yeston-rtx-3050-6gb-gddr6-gaming-graphics-card
