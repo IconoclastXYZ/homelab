@@ -20,6 +20,10 @@ Resizing a partition
 ## Mouting external drives in Docker machines
 - Mount it to the Docker VM host filesystem - https://askubuntu.com/questions/101029/how-do-i-mount-a-cifs-share
 - Then need to change fstab to make it persistent / reload on restart
+- Some details here - https://unix.stackexchange.com/questions/469274/debian-server-auto-mount-samba-share
+- and here - https://www.naturalborncoder.com/2023/07/mounting-a-samba-share-under-debian/
+
+- Final entry into fstab is: //192.168.1.2/Photos /mnt/photos cifs credentials=/home/debian/.DS918_smbcredentials,vers=3.0,uid=debian,gid=docker,ro,noauto,noperm,x-systemd.automount 0 0
 
 - Then mount it as a volume inside the machine - https://forums.docker.com/t/docker-compose-mount-samba-volume/132407
 - More about Docker volumes here - https://docs.docker.com/engine/storage/volumes/
