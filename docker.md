@@ -11,11 +11,36 @@ Several good guides are around, with [this one](https://www.xda-developers.com/u
 - Docker convenience script for [Debian](https://docs.docker.com/engine/install/debian/) - made it very easy
 
 Post installation steps for Docker
-- [Runnings as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
+- [Running as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
 
 Resizing a partition
 - After using the tools in ProxMox
 - https://kayg.org/notes/enlarge-disk-proxmox-vm
+
+## What directory structure to use
+- Start with a non-privileged user in the docker group, eg. debian
+- New directory for each machine
+```
+.
+└── debian/
+    ├── traekif/
+    │   ├── Dockerfile
+    │   ├── compose.yaml
+    │   ├── compose.override.yaml
+    │   └── app_directory/
+    │       ├── other_files
+    │       └── more_files
+    └── immich/
+        ├── Dockerfile
+        ├── compose.yaml
+        ├── compose.override.yaml
+        ├── .env
+        ├── upload/
+        │   └── uploaded images
+        └── pgdata/
+            └── data files
+```
+- Diagram created [with](https://tree.nathanfriend.com/)
 
 ## Mouting external drives in Docker machines
 - Mount it to the Docker VM host filesystem - https://askubuntu.com/questions/101029/how-do-i-mount-a-cifs-share
