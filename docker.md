@@ -53,3 +53,7 @@ Resizing a partition
 - Then mount it as a volume inside the machine - https://forums.docker.com/t/docker-compose-mount-samba-volume/132407
 - More about Docker volumes here - https://docs.docker.com/engine/storage/volumes/
 - Storage mount options - https://docs.docker.com/engine/storage/
+
+## Great collection of DOcker compose files and also hardware related information
+- https://github.com/JamesTurland/JimsGarage/tree/main
+- And here, how to use docker-compose.override files - https://www.librechat.ai/docs/configuration/docker_override
