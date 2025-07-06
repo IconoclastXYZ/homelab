@@ -16,3 +16,10 @@ https://www.simplehomelab.com/authentik-docker-compose-guide-2025/
 and by the same person
 Proxmox Web UI Behind Traefik Reverse Proxy: ✅ The Right Way
 https://www.youtube.com/watch?v=ldytlKJmPX4
+
+## How to setup Traefik with Cloudflare in a LXC instead of Docker
+Not sure that it is a good idea, but here it is anyway
+
+https://portal.habitats.tech/Traefik-Proxy+3.x/Traefik-Proxy+3.x+-+Install
+
+https://portal.habitats.tech/Traefik-Proxy+3.x/Traefik-Proxy+3.x+-+Setup
