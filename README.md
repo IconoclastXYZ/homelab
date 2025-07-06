@@ -37,8 +37,10 @@ Remember that after you have created a new VM or LXC you need to [enable qemu qu
 ### External access
 There are quite a few different ways to skin this cat and I talk about it [here](/external_access.md):
 
-### Service monitoring
-- Can use something like [Checkmate](https://www.youtube.com/watch?v=yCnkkljii_k)
+### Service monitoring and Uptime
+- Can use something like [Checkmate](https://www.youtube.com/watch?v=yCnkkljii_k) for service monitoring
+- Or Keepalived for robust service availability - https://www.xda-developers.com/keepalived-makes-home-network-resilient/
+- And a Dashboard to keep an eye on it - https://www.xda-developers.com/this-is-the-only-dashboard-my-nas/
 
 ### Building a Smart Home
 - Using [Home Assistant](https://www.youtube.com/watch?v=6z-ilfbzDlY) and HACS
