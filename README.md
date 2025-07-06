@@ -13,7 +13,7 @@ Information on the design and build of a homelab
 - [Docker](/docker.md) - VM host
 - [Portainer](/portainer.md) - Docker control panel
 - [Immich](/immich.md) - self-hosting photo library
-- [Pi-Hole](/pihole.md) - DNS filtering
+- DNS filtering with [Pi-Hole](/pihole.md) or perhaps [Technitium](technitium.md) which looks more versatile
 - [Tailscale](/tailscale.md) - secure remote access
 - [IT-Tools](https://it-tools.tech) - great collection of commonly used tools
 
