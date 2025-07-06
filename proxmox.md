@@ -51,3 +51,6 @@ Once it is all setup then the final changes need to be made in ProxMox in the Da
 
 ## Tools to make managing ProxMox easier
 - ProxMenuX - https://www.xda-developers.com/i-use-this-tool-to-help-manage-my-proxmox-server/
+
+## How to setup iGPU access in ProxMox
+https://3os.org/infrastructure/proxmox/gpu-passthrough/gpu-passthrough-to-vm/
