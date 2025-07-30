@@ -11,3 +11,6 @@ https://www.idrive.com/nas-backup
 
 - Use a pre-built docker container on TrueNAS, or maybe from ProxMox
 https://github.com/snorre-k/idrive-docker
+
+## Setup ProxMox Backup Server to run on TrueNAS in a VM and LXC
+https://www.youtube.com/watch?v=lUWB-Dash9M&t=316s
