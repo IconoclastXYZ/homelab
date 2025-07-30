@@ -54,3 +54,6 @@ Once it is all setup then the final changes need to be made in ProxMox in the Da
 
 ## How to setup iGPU access in ProxMox
 https://3os.org/infrastructure/proxmox/gpu-passthrough/gpu-passthrough-to-vm/
+
+## Short list of top 4 add-on tools
+https://www.xda-developers.com/i-use-these-companion-services-with-proxmox/
