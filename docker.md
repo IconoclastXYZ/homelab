@@ -13,6 +13,9 @@ Several good guides are around, with [this one](https://www.xda-developers.com/u
 Post installation steps for Docker
 - [Running as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
 
+12 main steps post install
+- https://www.virtualizationhowto.com/2025/08/12-essential-steps-i-take-on-every-new-docker-host/
+
 Resizing a partition
 - After using the tools in ProxMox
 - https://kayg.org/notes/enlarge-disk-proxmox-vm
