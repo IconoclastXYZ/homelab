@@ -46,3 +46,6 @@ There are quite a few different ways to skin this cat and I talk about it [here]
 - Using [Home Assistant](https://www.youtube.com/watch?v=6z-ilfbzDlY) and HACS
 - Need to work out how to get data off an ESP32 onto it... with some methods [here](https://randomnerdtutorials.com/esp32-how-to-log-data/)
 
+### Getting the Motion library to work on a raspberry Pi
+https://pimylifeup.com/raspberry-pi-webcam-server/
+
