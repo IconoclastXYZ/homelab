@@ -18,7 +18,7 @@ Information on the design and build of a homelab
 - [IT-Tools](https://it-tools.tech) - great collection of commonly used tools
 - [HomePage](/homepage.md) - great YAML based homepage tool in Docker
 - [Authentik]() - for authentication
-- [NGX Proxy Manager]() - for a local proxy
+- [NGX Proxy Manager]() - for a local proxy and access its logs [here](https://thomaswildetech.com/blog/2025/01/31/using-goaccess-with-nginx-proxy-manager-npm-to-visuallize-logs/)
 - [Integrate SSO through authentik and NPM](https://joshrnoll.com/implementing-sso-using-authentik-and-nginx-reverse-proxy-manager/)
 
 ####
