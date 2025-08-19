@@ -9,7 +9,7 @@ Information on the design and build of a homelab
   
 ### Software
 #### Virtual machine server
-- [ProxMox](/proxmox.md) - bare metal hypervisor, with lots of [helper scripts](https://community-scripts.github.io/ProxmoxVE/)
+- [ProxMox](/proxmox.md) - bare metal hypervisor, with lots of [helper scripts](https://community-scripts.github.io/ProxmoxVE/) and a guide to managing storage [here](https://github.com/TechHutTV/homelab/blob/main/storage/README.md)
 - [Docker](/docker.md) - VM host
 - [Portainer](/portainer.md) - Docker control panel
 - [Immich](/immich.md) - self-hosting photo library
