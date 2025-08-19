@@ -16,6 +16,7 @@ Information on the design and build of a homelab
 - DNS filtering with [Pi-Hole](/pihole.md) or perhaps [Technitium](technitium.md) which looks more versatile
 - [Tailscale](/tailscale.md) - secure remote access
 - [IT-Tools](https://it-tools.tech) - great collection of commonly used tools
+- [HomePage](/homepage.md] - great YAML based homepage tool in Docker
 
 ####
 - Good series on the whole setup, including Traefik and authentik, reverse proxy servers, etc.
