@@ -9,14 +9,17 @@ Information on the design and build of a homelab
   
 ### Software
 #### Virtual machine server
-- [ProxMox](/proxmox.md) - bare metal hypervisor
+- [ProxMox](/proxmox.md) - bare metal hypervisor, with lots of [helper scripts](https://community-scripts.github.io/ProxmoxVE/)
 - [Docker](/docker.md) - VM host
 - [Portainer](/portainer.md) - Docker control panel
 - [Immich](/immich.md) - self-hosting photo library
 - DNS filtering with [Pi-Hole](/pihole.md) or perhaps [Technitium](technitium.md) which looks more versatile
 - [Tailscale](/tailscale.md) - secure remote access
 - [IT-Tools](https://it-tools.tech) - great collection of commonly used tools
-- [HomePage](/homepage.md] - great YAML based homepage tool in Docker
+- [HomePage](/homepage.md) - great YAML based homepage tool in Docker
+- [Authentik]() - for authentication
+- [NGX Proxy Manager]() - for a local proxy
+- [Integrate SSO through authentik and NPM](https://joshrnoll.com/implementing-sso-using-authentik-and-nginx-reverse-proxy-manager/)
 
 ####
 - Good series on the whole setup, including Traefik and authentik, reverse proxy servers, etc.
