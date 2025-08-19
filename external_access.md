@@ -23,3 +23,6 @@ Not sure that it is a good idea, but here it is anyway
 https://portal.habitats.tech/Traefik-Proxy+3.x/Traefik-Proxy+3.x+-+Install
 
 https://portal.habitats.tech/Traefik-Proxy+3.x/Traefik-Proxy+3.x+-+Setup
+
+## RDP in Debian - giving you another way to reach the network
+[How to setup RDP in Debian](https://phoenixnap.com/kb/debian-remote-desktop)
