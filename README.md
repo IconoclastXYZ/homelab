@@ -38,7 +38,13 @@ Remember that after you have created a new VM or LXC you need to [enable qemu qu
 - Pi-Hole (backup)
 
 ### External access
-There are quite a few different ways to skin this cat and I talk about it [here](/external_access.md):
+The Security starts with using Cloudflare tunnels and then [Authentik](/authentik.md) using Nginx Proxy Manager.
+
+(I looked at using Traefik, but it works best when everything is inside Docker)
+
+Both Cloudflare tunnels and also Authentik can be set up to render an RDP session in the browser
+
+A good guide on setting up RDP on Debian can be found [here] (https://phoenixnap.com/kb/debian-remote-desktop)
 
 ### Service monitoring and Uptime
 - Can use something like [Checkmate](https://www.youtube.com/watch?v=yCnkkljii_k) for service monitoring
