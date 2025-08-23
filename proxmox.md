@@ -21,6 +21,7 @@ In no particular order for now...
 
 - [Initial cleanup and change repositories](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install)
 - [Install NetData](https://community-scripts.github.io/ProxmoxVE/scripts?id=netdata) - served on http://my.server:19999
+- [Top Security Hardening Steps for Proxmox VE 9](https://www.virtualizationhowto.com/2025/08/top-security-hardening-steps-for-proxmox-ve-9/)
 
 ## Guide to installation and LXC and shares
 https://github.com/TechHutTV/homelab/blob/main/storage/README.md
