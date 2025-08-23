@@ -4,6 +4,8 @@
 ### Getting it to work with NGX Proxy Manager
 A good run through of the process for both Nginx Proxy Manager and Authentik is [here](https://www.youtube.com/watch?v=Nh1qiqCYDt4)
 
+Or the article - [Integrate SSO through authentik and NPM](https://joshrnoll.com/implementing-sso-using-authentik-and-nginx-reverse-proxy-manager/)
+
 That was interesting... the code provided by Authentik for the 'custom' section in NPM was wrong.
 
 The correct information turned out to be [here](https://www.reddit.com/r/Authentik/comments/1j0crvj/nginix_proxy_managerauthentik_error_403/)
