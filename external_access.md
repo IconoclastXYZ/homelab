@@ -26,3 +26,8 @@ https://portal.habitats.tech/Traefik-Proxy+3.x/Traefik-Proxy+3.x+-+Setup
 
 ## RDP in Debian - giving you another way to reach the network
 [How to setup RDP in Debian](https://phoenixnap.com/kb/debian-remote-desktop)
+
+## VPN with an exit node on the local network
+[Using Cloudflar WARP, MASQUE and Dante SOCKS5 server](https://www.youtube.com/watch?v=oiqc5xbNmks) with a [Reddit thread](https://www.reddit.com/r/unRAID/comments/14qlay6/cloudflare_tunnel_as_a_exit_node/) on exit nodes on Cloudflare
+[Using Tailscale](https://tailscale.com/kb/1103/exit-nodes) and a [Reddit thread](https://www.reddit.com/r/Tailscale/comments/1e8rw88/tailscale_travel_router_setup/) on how to use a travel router (eg. [Beryl AX](https://www.gl-inet.com/products/gl-mt3000/) to provide secure reachback when using a shared network
+
