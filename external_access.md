@@ -31,6 +31,24 @@ https://portal.habitats.tech/Traefik-Proxy+3.x/Traefik-Proxy+3.x+-+Setup
 [Using Cloudflare WARP, MASQUE and Dante SOCKS5 server](https://www.youtube.com/watch?v=oiqc5xbNmks) with a [Reddit thread](https://www.reddit.com/r/unRAID/comments/14qlay6/cloudflare_tunnel_as_a_exit_node/) on exit nodes on Cloudflare
 
 - If you are using this method, you need to set the Windows Proxy to use the exit node, but that is not obvious, instead use [this](https://brightdata.com/blog/how-tos/set-up-proxy-in-windows-11#:~:text=in%20Windows%2011!-,Alternative%20Approach%3A%20Setting%20Up%20an%20HTTPS%20or%20SOCKS%20Proxy%20in%20Window%20Through%20the%20Control%20Panel,-The%20above%20procedure) method
+- Windows proxy setting: http://socks=x.x.x.x port 1080
+- Remember to select 'Don't use the proxy server for local (intranet) addresses' otherwise getting past captive portal pages, etc. will not work
 
+## Tailscale and a Travel Router with a VM on Proxmox as a local _exit node_
 [Using Tailscale](https://tailscale.com/kb/1103/exit-nodes) and a [Reddit thread](https://www.reddit.com/r/Tailscale/comments/1e8rw88/tailscale_travel_router_setup/) on how to use a travel router (eg. [Beryl AX](https://www.gl-inet.com/products/gl-mt3000/) to provide secure reachback when using a shared network
+
+# Tailscale setup on a Proxmox VM
+- Debian 12 (Bookworm) is latest supported version, spool up and install the Guest services
+- [Install Tailscale](https://tailscale.com/kb/1174/install-debian-bookworm)
+- Enable the endpoint as an [exit node](https://tailscale.com/kb/1103/exit-nodes?tab=linux), including setup of IP forwarding
+- Approve the new routes in the Admin Console
+- Finally enable 'accept-routes'
+```
+tailscale up --accept-routes --advertise-exit-node --advertise-routes=192.168.1.1/32
+```
+
+# Tailscale setup on the Beryl AX router (under APPLICATIONS) is straightforward
+- 'Enable Tailscale' - generates a validation code to join the tailscale network
+- 'Custom Exit Node' - then refresh the 'Exit Node' and select the one setup on the VM
+- Go to the Tailscale admin console and approve the Exit Node and set the key binding to persistent as well as approve the provided route (192.168.8.0/24)
 
