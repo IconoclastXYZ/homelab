@@ -37,7 +37,7 @@ https://portal.habitats.tech/Traefik-Proxy+3.x/Traefik-Proxy+3.x+-+Setup
 ## Tailscale and a Travel Router with a VM on Proxmox as a local _exit node_
 [Using Tailscale](https://tailscale.com/kb/1103/exit-nodes) and a [Reddit thread](https://www.reddit.com/r/Tailscale/comments/1e8rw88/tailscale_travel_router_setup/) on how to use a travel router (eg. [Beryl AX](https://www.gl-inet.com/products/gl-mt3000/) to provide secure reachback when using a shared network
 
-# Tailscale setup on a Proxmox VM
+### Tailscale setup on a Proxmox VM
 - Debian 12 (Bookworm) is latest supported version, spool up and install the Guest services
 - [Install Tailscale](https://tailscale.com/kb/1174/install-debian-bookworm)
 - Enable the endpoint as an [exit node](https://tailscale.com/kb/1103/exit-nodes?tab=linux), including setup of IP forwarding
@@ -47,7 +47,7 @@ https://portal.habitats.tech/Traefik-Proxy+3.x/Traefik-Proxy+3.x+-+Setup
 tailscale up --accept-routes --advertise-exit-node --advertise-routes=192.168.1.1/32
 ```
 
-# Tailscale setup on the Beryl AX router (under APPLICATIONS) is straightforward
+### Tailscale setup on the Beryl AX router (under APPLICATIONS) is straightforward
 - 'Enable Tailscale' - generates a validation code to join the tailscale network
 - 'Custom Exit Node' - then refresh the 'Exit Node' and select the one setup on the VM
 - Go to the Tailscale admin console and approve the Exit Node and set the key binding to persistent as well as approve the provided route (192.168.8.0/24)
