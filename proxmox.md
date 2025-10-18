@@ -23,6 +23,8 @@ In no particular order for now...
 - [Install NetData](https://community-scripts.github.io/ProxmoxVE/scripts?id=netdata) - served on http://my.server:19999
 - [Top Security Hardening Steps for Proxmox VE 9](https://www.virtualizationhowto.com/2025/08/top-security-hardening-steps-for-proxmox-ve-9/)
 
+### And if you are not going to run a cluster then consider [this](https://www.xda-developers.com/disable-these-services-to-prevent-wearing-out-your-proxmox-boot-drive/) to turn off the cluster checking services
+
 ## Guide to installation and LXC and shares
 https://github.com/TechHutTV/homelab/blob/main/storage/README.md
 
