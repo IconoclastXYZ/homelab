@@ -20,9 +20,13 @@ Information on the design and build of a homelab
 - [HomePage](/homepage.md) - great YAML based homepage tool in Docker
 - [Authentik](/authentik.md) - for authentication
 - [NGX Proxy Manager]() - for a local proxy and access its logs [here](https://thomaswildetech.com/blog/2025/01/31/using-goaccess-with-nginx-proxy-manager-npm-to-visuallize-logs/)
+
+- With some to consider for later
 - [HomeAssistant](https://www.wundertech.net/how-to-set-up-home-assistant-on-proxmox/) - how to get it running on ProxMox
 - [Mailrise](https://github.com/YoRyan/mailrise) for SMTP to arrise gateway and modern notifications
 - [Open Archiver](https://openarchiver.com/) for email archives to be locally hosted and searchable
+- [Vert](https://github.com/VERT-sh/VERT) locally hosted file converter
+- [Stirling PDF](https://docs.stirlingpdf.com/Installation/Docker%20Install/)
 
 ### Resources
 - [Jim's garage](https://www.youtube.com/@Jims-Garage), has a nice series of articles on Homeab, Proxmox, tinyauth and hardware too
