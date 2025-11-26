@@ -18,3 +18,7 @@ If anyone is reading this and the previous posts have not fully helped with rega
 
 ## Adding a graphics card for offloading GPU / AI tasks
 - Could use this one - https://yestonstore.com/products/yeston-rtx-3050-6gb-gddr6-gaming-graphics-card
+- Ultimate guide to GPU passthrough - https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/ with futher details - https://pve.proxmox.com/wiki/PCI_Passthrough
+
+## Changing the network after adding / removing harware
+- https://www.reddit.com/r/homelab/comments/1k2uck1/minisforum_ms01_rj45_ports_stopped_working_after/
