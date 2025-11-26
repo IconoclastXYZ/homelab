@@ -30,6 +30,7 @@ Information on the design and build of a homelab
 
 ### Resources
 - [Jim's garage](https://www.youtube.com/@Jims-Garage), has a nice series of articles on Homeab, Proxmox, tinyauth and hardware too
+- [Great collection of useful Linux commands](https://www.virtualizationhowto.com/2025/11/15-troubleshooting-commands-every-linux-home-lab-admin-should-know/)
 
 Remember that after you have created a new VM or LXC you need to [enable qemu quest services](https://pve.proxmox.com/wiki/Qemu-guest-agent) so that ProxMox can get notifications from the VM and also shut it down gracefully
 
