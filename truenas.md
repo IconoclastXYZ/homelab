@@ -14,3 +14,8 @@ https://github.com/snorre-k/idrive-docker
 
 ## Setup ProxMox Backup Server to run on TrueNAS in a VM and LXC
 https://www.youtube.com/watch?v=lUWB-Dash9M&t=316s
+
+## Setup Veeam on Truenas
+- https://www.truenas.com/docs/solutions/integrations/veeam/#:~:text=Configuring%20Veeam%20Agent%20with%20SMB,can%20now%20begin%20a%20backup.
+
+- Consider setting up duplicati instead
