@@ -28,6 +28,28 @@ In no particular order for now...
 ## Guide to installation and LXC and shares
 https://github.com/TechHutTV/homelab/blob/main/storage/README.md
 
+## Networking, Cloud-init and Netplan
+- When creating a new machine, consider if it needs a static IP address and also if the root user needs to have a custom name:password or SSH
+- Cloud-init - create a cloud-init drive at machine creation and then you can specify the main network parameters as well as login details - creating it later is really hard (it broke things and I needed to restore from a backup)
+- Netplan - the modern way of specifying networking on Debian, for instance create a file like 91-netplan-set.yaml in /etc/netplan
+```
+  network:
+  version: 2
+  ethernets:
+    eth0:
+      dhcp4: false
+      addresses:
+        - 192.168.1.6/24
+#      gateway4: 192.168.1.1        
+      routes:
+        - to: default
+          via: 192.168.1.1
+      nameservers:
+        addresses:
+          - 1.1.1.1
+          - 9.9.9.9
+```
+
 ## Stop it powering off
 - [Notes here](https://forum.proxmox.com/threads/my-proxmox-ve-occasionally-crashes-or-goes-into-sleep-mode.139933/)
 
