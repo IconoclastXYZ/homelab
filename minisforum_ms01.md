@@ -22,3 +22,10 @@ If anyone is reading this and the previous posts have not fully helped with rega
 
 ## Changing the network after adding / removing harware
 - https://www.reddit.com/r/homelab/comments/1k2uck1/minisforum_ms01_rj45_ports_stopped_working_after/
+
+## Improving the coolings - especially after adding a graphics card
+[Exhaust fan adaptor to 3D print](https://www.printables.com/model/1138652-minisforum-ms-01-exhaust-fan-adapter-140mm/files)
+[140mm fan cover for the base - to 3D print](https://www.printables.com/model/980783-minisforum-ms-01-140mm-fan-cover)
+[MUCH more perforated case to print](https://www.printables.com/model/1346224-minisforum-ms-a2-ms-01-case/files)
+
+Also, the grill/mesh inside can be removed to imrpvoe airflow
